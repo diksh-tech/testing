@@ -1,0 +1,9 @@
+# Ensure the Streamlit config directory exists
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.streamlit"
+
+# Create or overwrite config.toml with telemetry disabled
+Set-Content -Path "$env:USERPROFILE\.streamlit\config.toml" -Value "[browser]`ngatherUsageStats = false"
+
+
+
+Get-Content "$env:USERPROFILE\.streamlit\config.toml"
