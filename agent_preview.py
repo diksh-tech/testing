@@ -296,3 +296,10 @@ AZURE_OPENAI_KEY=your-api-key-here
 
 # Optional: Additional configuration
 AZURE_API_VERSION=preview
+
+
+
+
+
+venv06) PS C:\Users\Deeksha.x.Srivastava\OneDrive - InterGlobe Aviation Limited\Desktop\cua_code> python teams_automation.py
+error uploading: HTTPSConnectionPool(host='eu.i.posthog.com', port=443): Max retries exceeded with url: /batch/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
